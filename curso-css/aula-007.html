@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 007 - Display Flex</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/aula-007.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Exemplos de uso do <code>display: flex;</code></h1>
+
+        <div id="codigos-aula">
+            <h2>Elementos com atributos padrão: <code>display: block;</code></h2>
+
+            <div class="exemplos exemplo-1">
+                <div>Conteúdo 1</div>
+                <div>Conteúdo 2</div>
+                <div>Conteúdo 3</div>
+            </div>
+
+            <h2>Elementos com atributos flex: <code>display: flex;</code></h2>
+            <p>No exemplo abaixo com o uso do <code>display: flex;</code> os elementos agora ficaram em linha (inline/row) ao invés de em bloco (block/column).</p>
+
+            <p>Usando somente essa configuração os elementos forçam o máximo possível para se encaixarem dentro do container principal (pai), e se não der, eles ultrapassam o limite e acabam saindo pra fora.</p>
+
+            <div class="exemplos exemplo-2">
+                <div>Conteúdo 1</div>
+                <div>Conteúdo 2</div>
+                <div>Conteúdo 3</div>
+                <div>Conteúdo 4</div>
+                <div>Conteúdo 5</div>
+            </div>
+
+            <h2>Impedindo que elementos flex ultrapassem o tamanho do container pai: <code>flex-wrap: wrap;</code></h2>
+
+            <div class="exemplos exemplo-3">
+                <div>Conteúdo 1</div>
+                <div>Conteúdo 2</div>
+                <div>Conteúdo 3</div>
+                <div>Conteúdo 4</div>
+                <div>Conteúdo 5</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
