@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JS 001 Parte 2</title>
+</head>
+<body>
+    <h1>Variáveis no Javascript</h1>
+
+    <button onclick="quemEMeuSalvador()" >Quem é o meu salvador?</button>
+
+    <button onclick="soma(5, 5)">Quanto é 5 + 5?</button>
+
+    <script>
+        function quemEMeuSalvador() {
+            var nome = 'Jesus';
+            alert('Meu salvador é ' + nome + '!');
+        }
+
+        // Declarar = criar
+        // var nomeDaVariavel = valor da variavel;
+
+        // variavel que recebe um texto
+        var nome = 'Samuel';
+
+        // variável que recebe um número
+        var idade = 32;
+
+        // alert(nome);
+        // alert(idade);
+
+        // concatenar variaveis
+        // alert("Meu nome é " + nome + " e eu tenho " + idade + " anos.");
+        // "Algum texto" + nomeDaVariavel + " algum texto"
+        // nomedaVariavel + " algum texto"
+
+        // function apresentacao(nomeCompleto, minhaIdade) {
+        //     alert("Meu nome é " + nomeCompleto + " e eu tenho " + minhaIdade + " anos.");
+        // }
+        // apresentacao("Guilherme Fonseca", 15);
+        // apresentacao(nome, idade);
+
+        // var numero1 = 10;
+        // var numero2 = 15;
+
+        function soma(parametro1, parametro2) {
+            var resultado = parametro1 + parametro2;
+            alert('A soma de ' + parametro1 + ' + ' + parametro2 + ' é igual a ' + resultado);
+        }
+        // soma(numero1, numero2);
+    </script>
+</body>
+</html>
